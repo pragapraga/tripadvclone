@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    height: 35px;
+    display: flex;
+}
+
+body{
+    margin: 5px 300px 5px 300px;
+}
+
+li{
+    list-style: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+li:hover{
+cursor: pointer;
+background-color: #e0e0e0;
+border-radius: 18px;
+}
+
+.menu-div,.menu,.sign-in{
+    display: flex;
+}
+
+.menu{
+    gap: 15px;
+}
+.header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-in{
+color: white;
+background-color: black;
+padding: 10px 15px;
+border-radius: 20px;
+}
