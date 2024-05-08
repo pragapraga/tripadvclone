@@ -1,46 +1,128 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-.logo{
+.logo {
     height: 35px;
     display: flex;
 }
 
-body{
+body {
     margin: 5px 300px 5px 300px;
 }
 
-li{
+li {
     list-style: none;
-    font-weight: bold;
+    font-weight: bolder;
     padding: 10px;
 }
 
-li:hover{
-cursor: pointer;
-background-color: #e0e0e0;
-border-radius: 18px;
+li:hover {
+    cursor: pointer;
+    background-color: #e0e0e0;
+    border-radius: 18px;
 }
 
-.menu-div,.menu,.sign-in{
+.menu-div,
+.menu,
+.sign-in {
     display: flex;
 }
 
-.menu{
+.menu {
     gap: 15px;
 }
-.header{
+
+.header {
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.sign-in{
-color: white;
-background-color: black;
-padding: 10px 15px;
-border-radius: 20px;
+.sign-in {
+    color: white;
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin: 50px 0 50px 0;
+}
+
+.dynamic-text {
+    padding-bottom: 50px;
+}
+
+.dynamic-text,
+.search {
+    display: flex;
+    flex-direction: column;
+}
+
+span img {
+    width: 25px;
+    height: 25px;
+}
+
+.search-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-menu-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search-menu-item button {
+    border: none;
+    font-size: large;
+    background: none;
+}
+
+.search-menu-item button:hover {
+    cursor: pointer;
+}
+
+.search-bar-container {
+    margin-top: 30px;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.search-box {
+    border: none;
+}
+
+.search-bar-container {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.search-bar-container input {
+    flex-grow: 1;
+    border: none;
+}
+
+.search-bar-container input:focus {
+    outline: none;
+}
+
+.search-bar-container button {
+    border: none;
+    background-color: aquamarine;
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: bolder;
 }
