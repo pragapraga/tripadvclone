@@ -12,13 +12,13 @@ body {
     margin: 5px 300px 5px 300px;
 }
 
-li {
+.menu-item {
     list-style: none;
     font-weight: bolder;
     padding: 10px;
 }
 
-li:hover {
+.menu-item:hover {
     cursor: pointer;
     background-color: #e0e0e0;
     border-radius: 18px;
@@ -48,7 +48,7 @@ li:hover {
     border-radius: 20px;
 }
 
-.search {
+.search,.banner {
     display: flex;
     align-items: center;
     margin: 50px 0 50px 0;
@@ -91,6 +91,11 @@ span img {
     cursor: pointer;
 }
 
+/* .search-btn{
+    padding-left: 25px;
+    padding-right: 25px;
+} */
+
 .search-bar-container {
     margin-top: 30px;
     width: 55%;
@@ -125,4 +130,69 @@ span img {
     padding: 15px;
     border-radius: 25px;
     font-weight: bolder;
+}
+
+.banner-image img{
+    background: linear-gradient(90deg,#d5dff7,#dcc8ff);
+    width: 100%;
+}
+
+.beta{
+background-color: white;
+font-size: small;
+font-weight: bold;
+}
+
+.beta , .ai{
+position: relative;
+left: 100px;
+bottom: 100px;
+padding: 2px;
+border-radius: 5px;
+}
+
+.banner-content{
+    position: absolute;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.award-winning-cards{
+    display: flex;
+    gap: 5px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.award-winning-cards img{
+    height: 300px;
+}
+
+.bgcolor{
+    background-color: #faf1ed;
+    padding: 15px;
+}
+
+.award-winning-explore img{
+    height: 220px;
+}
+
+.award-winning-explore {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.award-winning-explore card{
+    flex-basis: 10%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.about .about-item{
+    list-style: none;
 }
